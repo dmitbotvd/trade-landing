@@ -243,7 +243,7 @@ h2 {
     /*margin: 0 25px;*/
     background: var(--bg-blue);
     border-radius: 40px;
-    padding: 40px 30px;
+    padding: 40px 30px 0 30px;
     align-items: flex-start;
     position: relative;
     justify-content: space-between;
@@ -251,7 +251,7 @@ h2 {
 .grid-table__center img {
     position: relative;
     content: '';
-    bottom: -18px;
+/*     bottom: -18px; */
     margin: 0 auto;
 }
 .grid-table-absolute {
@@ -489,7 +489,7 @@ footer {
         flex-direction: column;
     }
     .grid-table__center img {
-        bottom: -32px;
+/*         bottom: -32px; */
         width: 100%;
     }
     .grid-table-absolute .link {
@@ -633,7 +633,7 @@ footer {
         margin: 16px 0;
     }
     .grid-table__center img {
-        bottom: -40px;
+/*         bottom: -40px; */
         width: 280px;
     }
     .grid-table__item {
