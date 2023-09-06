@@ -712,10 +712,10 @@ footer {
     }
 }
 .accordion-button::after {
-    background-image: url("/img/plus.svg");
+    background-image: url("img/plus.svg");
 }
 .accordion-button:not(.collapsed)::after {
-    background-image: url("/img/dash.svg");
+    background-image: url("img/dash.svg");
 }
 .accordion-button:focus {
     border: none;
